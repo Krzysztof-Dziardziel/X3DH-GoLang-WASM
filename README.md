@@ -2,7 +2,7 @@
 
 - Install golang: `brew install go`
 - `go get`
-- Compile changed `main.go` using ` GOARCH=wasm GOOS=js go build -o lib.wasm main.go`
+- Compile changed `main.go` using `tinygo build -o lib.wasm -target wasm main.go`
 
 # Example Use
 
